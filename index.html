@@ -13,6 +13,7 @@
                 <input type="date" id="date">
                  <button onclick="calculateAge()">Calculator</button>
             </div>
+            <p id="result"></p>
         </div>
     </div>
 </body>
@@ -54,9 +55,7 @@
         if(m3 < 0){
             m3 = 11;
             y3--;
-        } else{
-            
-        }
+        } 
     }
 
     function getDaysInMonth(year, month){
